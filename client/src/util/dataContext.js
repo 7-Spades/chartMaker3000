@@ -2,8 +2,8 @@ import React, {createContext} from 'react';
 
 export const dataContext = createContext()
 
-class dataContextProvider extends React.Component{
-    state={
+class DataContextProvider extends React.Component{
+    state = {
         title: '',        
         chartData:{
             labels:[],
@@ -30,4 +30,4 @@ class dataContextProvider extends React.Component{
     }
 }
 
-export default dataContextProvider
+export default DataContextProvider
